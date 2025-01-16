@@ -1,8 +1,8 @@
-# Proyecto para practicar
+# Design Patterns
 
-Este es un proyecto de Vanilla TypeScript en Vite, para trabajar los ejercicios del curso sobre Principios SOLID y CleanCode.
+This is a Vanilla TypeScript using Vite, that shows how to use some Design Patterns.
 
-Clonar o descargar el proyecto y luego:
+Clone or download the repository and then:
 
 ```
 yarn install
@@ -10,7 +10,7 @@ yarn install
 npm install
 ```
 
-Para ejecutar el proyecto, simplemente ejecuten
+For starting the project, just run:
 ```
 yarn dev
 ó
