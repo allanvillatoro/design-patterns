@@ -6,13 +6,13 @@ Clone or download the repository and then:
 
 ```
 yarn install
-ó
+or
 npm install
 ```
 
 For starting the project, just run:
 ```
 yarn dev
-ó
+or
 npm run dev
 ```
