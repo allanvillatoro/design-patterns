@@ -31,14 +31,14 @@ class PayPalAdapter implements PaymentProcessor {
   }
 }
 
-class StripeAdapter {
+class StripeAdapter implements PaymentProcessor {
   constructor(private stripeService: StripeService) {}
   processPayment(amount: number) {
     this.stripeService.makeCharge(amount);
   }
 }
 
-class MercadoPagoAdapter {
+class MercadoPagoAdapter implements PaymentProcessor {
   constructor(private mercadoPagoService: MercadoPagoService) {}
   processPayment(amount: number) {
     this.mercadoPagoService.pay(amount);
